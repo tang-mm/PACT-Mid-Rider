@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundmain"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- white = "#FFFFFF", black = "#000000" -->
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/accel_sensibility" />
+
+    <SeekBar
+        android:id="@+id/sensibilityBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFFFFF"
+        android:max="12"
+        android:progress="6" />
+
+    <!-- separators -->
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="5dip"
+        android:background="#FFFFFF" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dip"
+        android:layout_gravity="center"
+        android:background="#000000" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="5dip"
+        android:background="#FFFFFF" />
+
+    <Switch
+        android:id="@+id/touchScreenSwitch"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFFFFF"
+        android:text="@string/touchScreen"
+        android:textOff="Off"
+        android:textOn="On" />
+
+    <Button
+        android:id="@+id/confirmSettingsButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
+        android:text="@string/confirm" />
+
+</LinearLayout>

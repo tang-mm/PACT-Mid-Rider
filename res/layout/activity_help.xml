@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".HelpActivity" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:id="@+id/TEXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="Mid rider is an amazing game to improve your musical culture! \n
+            \n You can play in two differents modes: Blind Test and Fun. 
+            \n
+            \n In each mode you can earn notes in order to access new levels, new characters and new backgrouds!
+But you do not earn the same quantity of notes. 
+\n In Blind test mode, if you find the good answer in the blind test, you will improve your quantity of notes, but if you do not, it will be bad.
+\n In Fun mode, you earn notes each time you play but it is really less than in blind test mode.
+\n
+\n In the main menu, you have access to the settings menu where you can calibrate the accelerometer.
+\n
+\n If you click on play, you have access to a menu where you can choose the mode and if you are in Fun mode, you can choose the song you want to play.
+\n During the mode, you have to collect the notes. Each time you take one note, a sound is played. If you collect plenty of notes without errors, you can hear the musical arrangement and you get combo. You have your score on the top-right and the combo mode on the bottom-right. 
+\n However, if you avoid all the notes you won&apos;t be able to find the song because you won&apos;t hear anything.
+\n
+\n Let&apos;s play!!!"
+            android:textColor="#FFFFFFFF" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/score_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FFFFFFFF" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:onClick="clickOnBack"
+        android:src="@android:drawable/ic_menu_revert" />
+
+</RelativeLayout>

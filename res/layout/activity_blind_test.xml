@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- two columns -->
+
+    <TextView
+        android:id="@+id/textProg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question" />
+
+    <ListView
+        android:id="@+id/listProg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textProg"
+        android:choiceMode="singleChoice" >
+    </ListView>
+
+    <!-- second column -->
+
+    <TextView
+        android:id="@+id/listenOnlyOnceMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textProg"
+        android:text="@string/onlyOnce" />
+
+    <Button
+        android:id="@+id/listenMusic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/listenOnlyOnceMsg"
+        android:layout_alignTop="@id/listProg"
+        android:layout_toRightOf="@id/listProg" />
+
+    <Button
+        android:id="@+id/listenMusic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/listenOnlyOnceMsg"
+        android:layout_below="@+id/listenMusic1"
+        android:layout_toRightOf="@id/listProg" />
+
+    <Button
+        android:id="@+id/listenMusic3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/listenOnlyOnceMsg"
+        android:layout_below="@+id/listenMusic2"
+        android:layout_toRightOf="@id/listProg" />
+
+    <Button
+        android:id="@+id/continueMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/listenOnlyOnceMsg"
+        android:layout_below="@+id/listenMusic3"
+        android:text="@string/pauseContinue" />
+
+    <Button
+        android:id="@+id/stopMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listenMusic3"
+        android:layout_toRightOf="@id/continueMusic"
+        android:text="@string/stop" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/listenOnlyOnceMsg"
+        android:layout_below="@id/stopMusic"
+        android:background="#00BFFF"
+        android:text="@string/confirm" />
+    <!-- confirm button color = blue -->
+
+</RelativeLayout>

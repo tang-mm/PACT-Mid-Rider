@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="content">Main Menu</string>
+    <string name="app_name">Mid Rider</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_new_game">NewGameActivity</string>
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_pause">Pause</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_choose_game_mode">ChooseGameModeActivity</string>
+    <string name="mode_choose">Choose the game mode</string>
+    <string name="mode_normal">Normal</string>
+    <string name="mode_blindTest">Blind Test</string>
+    <string name="difficulty">Choose the difficulty</string>
+    <string name="difficulty_beginner">Beginner</string>
+    <string name="difficulty_pro">Pro</string>
+    <string name="difficultyChooser">Choose the difficulty :</string>
+    <string name="level">Choose your level</string>
+    <string name="level_rainbow">RainBow</string>
+    <string name="level_classic">Classic</string>
+    <string name="levelChooser">Choose the level :</string>
+    <string name="songChooser">Choose your song :</string>
+    <string name="accel_sensibility">Accelerometer Sensibility</string>
+    <string name="menu_new_game">New Game</string>
+    <string name="help">Help</string>
+    <string name="question">Which music have you played just now? </string>
+    <string name="confirm">Confirm</string>
+    <string name="stop">Stop</string>
+    <string name="pauseContinue">Pause/Continue</string>
+    <string name="touchScreen">Touch Screen</string>
+    <string name="onlyOnce"> ** You can listen to only one piece of music **</string>
+
+</resources>
